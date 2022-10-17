@@ -36,4 +36,5 @@ describe('Remove from list', () => {
     const expected = convertArrayToList([1, 2]);
     assert.deepEqual(removeKFromList(initial, 3), expected);
   });
+  
 });
